@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+header{
+  .container{
+    .nohero{
+      ul{
+        li{
+          a{
+            color: $main-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+section{
+  &.nohero{
+    background-color: $bg-white;
+  }
+}
+
+/*===========================================
+	works設定
+=============================================*/
+.work{
+  .work-box-wrapper{
+    .article-box{
+      &.open{
+        &:nth-child(n+7){
+          display: block !important;
+        }
+      }
+    }
+  }
+}

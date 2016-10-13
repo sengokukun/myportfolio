@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+$text-white: #fff;
+$text-333:#333;
+$accent-color: #BF6A7A;
+$main-color: #51a1a2;
+$bg-ddd: #ddd;
+$bg-white: #fff;
+$bg-eee: #eee;
+$bg-contact: #333;
+$bg-form: #6b6b6b;
+$bg-footer: #333;
+
+@function get_vw($size, $viewport:768){
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}
+
+@media (max-width: 599px) {
+  :root{
+    font-size: 14px;
+  }
+}
+@media (min-width: 600px) and (max-width: 799px) {
+  :root{
+    font-size: 16px;
+  }
+}
+@media (min-width: 800px) {
+  :root{
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,5 @@
+AuthUserFile /home/users/1/chu.jp-sen/web/index/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Welcome!"
+AuthType Basic
+require valid-user

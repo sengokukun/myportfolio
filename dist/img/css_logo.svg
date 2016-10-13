@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#E44D26;}
+	.st2{display:inline;fill:#F16529;}
+	.st3{display:inline;fill:#EBEBEB;}
+	.st4{display:inline;}
+	.st5{display:inline;fill:#FFFFFF;}
+	.st6{fill:#131313;}
+	.st7{fill:#1572B6;}
+	.st8{fill:#33A9DC;}
+	.st9{fill:#FFFFFF;}
+	.st10{fill:#EBEBEB;}
+</style>
+<g id="レイヤー_1" class="st0">
+	<title>HTML5 Logo</title>
+	<polygon class="st1" points="107.6,470.9 74.6,100.6 437.4,100.6 404.3,470.8 255.8,512 	"/>
+	<polygon class="st2" points="256,480.5 376,447.2 404.3,130.9 256,130.9 	"/>
+	<polygon class="st3" points="256,268.2 195.9,268.2 191.8,221.7 256,221.7 256,176.3 255.8,176.3 142.1,176.3 143.2,188.5 
+		154.4,313.6 256,313.6 	"/>
+	<polygon class="st3" points="256,386.2 255.8,386.2 205.2,372.5 202,336.3 177.4,336.3 156.4,336.3 162.8,407.6 255.8,433.5 
+		256,433.4 	"/>
+	<path class="st4" d="M108.4,0h23.1v22.8h21.1V0h23.1v69h-23.1V45.9h-21.1V69h-23.1L108.4,0L108.4,0z"/>
+	<path class="st4" d="M206,22.9h-20.3V0h63.7v22.9h-20.3V69H206L206,22.9L206,22.9z"/>
+	<path class="st4" d="M259.5,0h24.1l14.8,24.3L313.2,0h24.1v69h-23V34.8l-15.9,24.5H298l-15.9-24.5V69h-22.6V0z"/>
+	<path class="st4" d="M348.7,0h23.1v46.2h32.5V69h-55.5V0z"/>
+	<polygon class="st5" points="255.8,268.2 255.8,313.6 311.8,313.6 306.5,372.5 255.8,386.2 255.8,433.4 348.9,407.6 349.6,400 
+		360.3,280.4 361.4,268.2 349.2,268.2 	"/>
+	<polygon class="st5" points="255.8,176.3 255.8,204.5 255.8,221.6 255.8,221.7 365.4,221.7 365.4,221.7 365.5,221.7 366.4,211.5 
+		368.5,188.5 369.6,176.3 	"/>
+</g>
+<g id="レイヤー_2">
+	<g id="Page_1">
+		<g id="Layer_1">
+			<path id="Shape" class="st6" d="M357.9,21.6h-29.8l31,33.6v16h-63.9V52.5h31l-31-33.6v-16h62.7V21.6L357.9,21.6z M282.6,21.6
+				h-29.8l31,33.6v16h-63.9V52.5h31l-31-33.6v-16h62.7V21.6L282.6,21.6z M208,22.4h-32.2v29.4H208v19.5h-55V2.8h55V22.4L208,22.4z"
+				/>
+			<path id="Shape_1_" class="st7" d="M109.1,469.2L76.4,102.5h359.2l-32.7,366.6l-147.1,40.8L109.1,469.2z"/>
+			<path id="Shape_2_" class="st8" d="M256,478.7l118.9-33l28-313.3H256V478.7z"/>
+			<g id="Group" transform="translate(55.000000, 142.000000)">
+				<path id="Shape_3_" class="st9" d="M201,123.3h59.5l4.1-46H201v-45h0.2h112.6l-1.1,12.1l-11.1,123.9H201V123.3z"/>
+				<path id="Shape_4_" class="st10" d="M201.3,240.1l-0.2,0.1L151,226.6l-3.2-35.9h-24.3h-20.8l6.3,70.6l92.1,25.6l0.2-0.1V240.1z"
+					/>
+				<path id="Shape_5_" class="st9" d="M256.7,166.4l-5.4,60.2l-50.2,13.5v46.8l92.2-25.6l0.7-7.6l7.8-87.4H256.7z"/>
+				<path id="Shape_6_" class="st10" d="M201.2,32.3v27.9v16.9v0.1H92.7h-0.1l-0.9-10.1l-2-22.8l-1.1-12.1H201.2z"/>
+				<path id="Shape_7_" class="st10" d="M201,123.3v27.9v16.9v0.1h-49.3h-0.1l-0.9-10.1l-2.1-22.8l-1.1-12.1H201z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

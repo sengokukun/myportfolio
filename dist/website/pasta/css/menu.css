@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* menuBox */
+.menuBox
+{
+	margin-top:20px;
+}
+/* whiteBox */
+.whiteBox{
+	width:360px;
+	padding:20px 20px 25px 20px;
+}
+.whiteBox h3{
+	margin:30px 0;
+	padding:0 5px;
+}
+.whiteBox p{
+	width:320px;
+	margin:auto;
+}
+.whiteBox dt{
+	width:200px;
+	font-size:14px;
+	float:left;
+	color:#582908;
+}
+.whiteBox dd{
+	font-size:14px;
+	float:right;
+	
+}
+.dl-bottom{
+	border-bottom:dotted 1px #999;
+	margin:0 5px;
+	padding-bottom:8px;
+	padding-top:6px;
+	box-sizing:border-box;
+}
+/* wBox */
+.wBox{
+	float:left;
+}
+.wBox2{
+	float:right;
+	margin-bottom:50px;
+}
+.wBox3{
+	float:left;
+	margin:20px 0;
+}

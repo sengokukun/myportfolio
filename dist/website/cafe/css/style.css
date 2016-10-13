@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+/* 基本CSSの設定 */
+
+.back-to-top{
+	text-align: center;
+	background-color: #eee;
+	padding: 20px;
+	border-bottom: 1px solid #51a1a2;
+}
+.back-to-top p a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #51a1a2;
+}
+.back-to-top p a:hover{
+	opacity: 0.8;
+	text-decoration: underline;
+}
+
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:62.5%;
+	line-height:1.6;
+	background: url(../images/stripe.gif) #fff;
+	color:#333;
+}
+
+a:link,
+a:visited,
+a:active{
+	color:#fa9a4a;
+	text-decoration:underline;
+}
+
+a:hover{
+	color:#fa9a4a;
+	text-decoration:none;
+}
+
+ul{
+	list-style:none;
+}
+
+/* ヘッダーエリアの設定 */
+
+#pageHeader{
+	background:#fff;
+	width:100%;
+	font-size:1.1em;
+	border-bottom:1px solid #f3f2f2;
+}
+
+#headerTop{
+	width:940px;
+	margin:0 auto;
+	position:relative;
+}
+
+h1{
+	padding-top:25px;
+}
+
+h2{
+	font-weight:normal;
+	font-size:1em;
+	color:#999;
+	margin:0 0 20px 60px;
+}
+
+ul#subNav{
+	position:absolute;
+	top:30px;
+	right:10px;
+	text-align:right;
+}
+
+ul#subNav li{
+	float:left;
+	padding-right:30px;
+}
+
+ul#subNav li a.sitemap{
+	display:block;
+	background:url(../images/sitemap.gif) no-repeat left center;
+	padding-left:20px;
+	min-height:11px;
+}
+
+ul#subNav li a.rss{
+	display:block;
+	background:url(../images/rss.gif) no-repeat left center;
+	padding-left:18px;
+	min-height:11px;
+}
+
+/* グローバルナビゲーション・メイングラフィックの設定 */
+
+#globalNav{
+	width:100%;
+	min-height:48px;
+	background:url(../images/nv_bg.gif) repeat-x;
+}
+
+#globalNav ul{
+	width:940px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#globalNav ul li{
+	float:left;
+	background:url(../images/line.gif) no-repeat left center;
+	height:48px;
+}
+
+#globalNav ul li a{
+	display:inline-block;
+	width:146px;
+	height:48px;
+	text-align:center;
+	line-height:48px;
+	color:#fff;
+	font-size:1.4em;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:0 5px;
+	transition:0.25s linear;
+}
+
+#globalNav ul li a:hover{
+	background:#fd946b;
+}
+
+#pageHeader p img{
+	display:block;
+	width:940px;
+	margin:0 auto;
+}
+
+/* コンテンツエリアの設定 */
+
+#contents{
+	width:940px;
+	margin:0 auto;
+	font-size:1.2em;
+}
+
+#contents_left{
+	width:690px;
+	margin-right:30px;
+	float:left;
+}
+
+#sidebar{
+	width:220px;
+	float:right;
+}
+
+#contents p{
+	font-size:1em;
+}
+
+/* コンテンツ領域枠の設定 */
+
+#recommend,
+#info{
+	margin-top:30px;
+	background:#fff;
+	border:1px solid #eaeaea;
+	padding:0 16px 30px;
+	box-shadow:0 2px 3px #ccc;
+}
+
+/* welcome部分の設定 */
+
+#welcome{
+	margin-top:45px;
+	border:5px solid #e6ded6;
+	background:#fff;
+	padding:0 16px 6px;
+}
+
+#welcome h3{
+	margin-top:12px;
+	border-bottom:1px solid #ccc;
+	padding-bottom:6px;
+}
+
+#welcome p img{
+	display:block;
+	float:right;
+	margin-left:8px;
+}
+
+#welcome p{
+	font-size:1.1em;
+	margin-top:15px;
+}
+
+/* recommend部分の設定 */
+
+#recommend h3,
+#info h3{
+	margin-top:24px;
+	border-bottom:2px solid #dedede;
+	padding-bottom:6px;
+}
+
+#recommend .box{
+	width:317px;
+	float:left;
+}
+
+#recommend .box h4{
+	background:url(../images/icon_01.gif) no-repeat left center;
+	padding-left:20px;
+	margin:20px 0 8px;
+}
+
+#recommend .box img{
+	display:block;
+	float:left;
+	margin-right:8px;
+	border:1px solid #eee;
+	background:#fff;
+	padding:2px;
+}
+
+/* 「詳細を見る」ボタンの設定 */
+
+.box p.more a{
+	display:inline-block;
+	width:76px;
+	font-size:1em;
+	text-align:center;
+	color:#fff;
+	padding:4px 12px;
+	border:1px solid #f39a27;
+	text-decoration:none;
+
+	background:#ffa443;
+	background:linear-gradient(#ffa443,#ff7400);
+
+	border-radius:2px;
+
+	box-shadow:0 1px 2px rgba(000,000,000,0.2);
+
+	text-shadow:0 1px 2px rgba(000,000,000,0.2);
+}
+
+.box p.more a:hover{
+	border:1px solid #fcb457;
+	background:#ffbb76;
+	background:linear-gradient(#ffbb76,#fcac5d);
+}
+
+.box p.more{
+	text-align:right;
+}
+
+/* Information部分の設定 */
+
+#info h4{
+	background:url(../images/icon_02.gif) no-repeat left center;
+	padding-left:14px;
+	margin-top:13px;
+}
+
+#info .date{
+	font-size:0.8em;
+	color:#999;
+	padding-left:14px;
+}
+
+#info p{
+	margin-top:5px;
+	border-bottom:1px dotted #ccc;
+	padding:0 0 16px 14px;
+}
+
+/* サイドエリアの設定 */
+
+#access{
+	border:1px solid #a2958c;
+	margin-top:45px;
+	font-size:1.1em;
+	width:218px;
+	background:#fff;
+}
+
+#access h3{
+	background:#8e7d72;
+	padding:12px 0 8px 8px;
+}
+
+#access ul{
+	padding:20px 7px 20px 13px;
+}
+
+#access li{
+	margin-bottom:8px;
+}
+
+#access p{
+	text-align:center;
+	margin-bottom:8px;
+}
+
+#access p img{
+	display:inline-block;
+	border:1px solid #eee;
+	background:#fff;
+	padding:3px;
+}
+
+li.add{
+	background:url(../images/icon_03.gif) no-repeat 0 2px;
+	padding-left:20px;
+}
+
+li.tel{
+	background:url(../images/icon_04.gif) no-repeat 0 1px;
+	padding-left:20px;
+}
+
+li.open{
+	background:url(../images/icon_05.gif) no-repeat 0 2px;
+	padding-left:20px;
+}
+
+#bnr h3{
+	margin:40px 0 10px;
+}
+
+#bnr li{
+	margin-bottom:20px;
+}
+
+/* フッターエリアの設定 */
+
+#footer{
+	width:100%;
+	background:#9d958b;
+	min-height:130px;
+	margin-top:80px;
+	font-size:1.1em;
+	position:relative;
+}
+
+#footer p #copyright{
+	display:block;
+	width:940px;
+	margin:0 auto;
+	text-align:center;
+	color:#fff;
+	padding-top:15px;
+}
+
+/* 「ページ先頭へ戻る」ボタンの設定 */
+
+#gotoTop{
+	position:absolute;
+	top:-140px;
+	right:0;
+}

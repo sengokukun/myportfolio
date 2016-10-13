@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+/* 基本設定： ページ全体 */
+
+html{
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.button{
+	display: inline-block;
+  width: 200px;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: $main-color;
+  color: $text-white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+	&:hover{
+		opacity: 0.9;
+	}
+	.button-showy{
+		background-color: #0076a7;
+	}
+	.button-ghost{
+		border: 1px solid #fff;
+	  background-color: rgba(255, 255, 255, 0.15);
+	}
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/*===========================================
+	header設定
+=============================================*/
+/*===========================================
+	header設定
+=============================================*/
+
+header{
+	color: $text-white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  .container{
+    .head-navi{
+      text-align: center;
+      ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+				// background-color: rgba(255,255,255,0.6);
+        li{
+          border-bottom: 1px solid #ddd;
+          &:last-child{
+            border-bottom: none;
+          }
+          a{
+            display: block;
+            padding: 15px;
+            color: inherit;
+            font-size: 0.8rem;
+            text-decoration: none;
+            // transition: all 0.4s;
+            &:hover{
+              // background-color: rgba(0,0,0,0.3);
+							opacity: 0.8;
+            }
+          }
+        }
+      }
+			&.open{
+				display: block;
+			}
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  header{
+		position: fixed;
+    .container{
+      .container-small{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .sp-button{
+          margin-right: 10px;
+          padding: 0;
+          border: none;
+          background: none;
+          font-size: 28px;
+          opacity: 0.8;
+          cursor: pointer;
+          color: $main-color;
+          &:hover{
+            opacity: 0.3;
+          }
+        }
+      }
+      .head-navi{
+        display: none;
+				// &.open{
+				// 	display: block;
+				// }
+				ul{
+					background-color: rgba(0,0,0,0.5);
+				}
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+	header{
+    .container{
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      .head-navi{
+        display: block !important;
+        ul{
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: -o-flex;
+          display: flex;
+          li{
+            border: none;
+          }
+        }
+      }
+      .sp-button{
+        display: none;
+      }
+    }
+  }
+}
+
+/*===========================================
+	footer設定
+=============================================*/
+
+footer{
+	background-color: $bg-footer;
+	color: $text-white;
+	.container{
+		.sns{
+			padding: 50px 0;
+			text-align: center;
+			ul{
+				display: flex;
+				margin: 0;
+				padding: 0;
+				list-style-type: none;
+				align-items: center;
+				justify-content: center;
+				li{
+					a{
+						display: block;
+						margin-right: 8px;
+						font-size: 16px;
+						padding: 0;
+						padding: 5px;
+						color: inherit;
+						font-size: 12px;
+						text-decoration: none;
+						border: 1px solid currentColor;
+						border-radius: 50%;
+						width: 2em;
+						line-height: 2em;
+						text-align: center;
+						&:hover{
+							// background-color: rgba(0, 0, 0, 0.3);
+							background-color: $main-color;
+						}
+					}
+				}
+			}
+		}
+		.myaddress{
+			text-align: center;
+			font-size: 0.9em;
+			padding-bottom: 6px;
+		}
+		.copyright{
+			text-align: center;
+			padding-bottom: 30px;
+			p{
+				small{
+					font-size: 0.7em;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	footer{
+    .container{
+    }
+  }
+}

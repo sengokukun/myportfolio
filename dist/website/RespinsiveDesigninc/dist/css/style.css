@@ -1,0 +1,205 @@
+@charset "UTF-8";
+.clearfix:after {
+  /*  clearfixクラスを設定した後の要素  */
+  content: ".";
+  /*コンテンツ作成*/
+  display: block;
+  height: 0;
+  clear: both;
+  /*floatの処理をクリア*/
+  visibility: hidden; }
+
+.back-to-top {
+  text-align: center;
+  background-color: #eee;
+  padding: 20px;
+  border-bottom: 1px solid #358cac; }
+  .back-to-top p a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #358cac; }
+    .back-to-top p a:hover {
+      opacity: 0.8;
+      text-decoration: underline; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+li {
+  list-style-type: none; }
+
+header {
+  width: 100%;
+  border-top: 5px solid #358cac; }
+  header .container {
+    width: 100%; }
+    header .container .heading {
+      color: #358cac;
+      text-align: center;
+      padding: 20px 0;
+      line-height: 26px;
+      box-sizing: border-box; }
+      header .container .heading h1 {
+        font-size: 1.2rem; }
+      header .container .heading h2 {
+        font-size: 0.7rem; }
+      @media screen and (min-width: 480px) {
+        header .container .heading {
+          text-align: left;
+          float: left;
+          padding: 30px; } }
+    header .container .contact {
+      text-align: center; }
+      header .container .contact p {
+        font-size: 0.8rem;
+        line-height: 22px; }
+      header .container .contact span {
+        font-size: 1.4rem;
+        font-weight: bold; }
+      @media screen and (min-width: 480px) {
+        header .container .contact {
+          float: right;
+          padding: 30px; } }
+    header .container nav {
+      clear: both; }
+      header .container nav.topNavigation {
+        width: 100%;
+        font-weight: bold;
+        margin: 15px auto 15px auto;
+        background: #358cac;
+        margin-bottom: 30px; }
+        @media screen and (min-width: 960px) {
+          header .container nav.topNavigation {
+            width: 960px; } }
+        header .container nav.topNavigation li {
+          width: 33%;
+          box-sizing: border-box;
+          list-style: none;
+          float: left;
+          border-bottom: 1px solid #73c4e6;
+          border-left: 1px solid #73c4e6; }
+          header .container nav.topNavigation li:hover {
+            background-color: #73c4e6; }
+          @media screen and (max-width: 480px) {
+            header .container nav.topNavigation li {
+              width: 50%; } }
+          @media screen and (min-width: 960px) {
+            header .container nav.topNavigation li {
+              box-sizing: border-box;
+              border-bottom: none;
+              width: 160px; } }
+          header .container nav.topNavigation li a {
+            width: 100%;
+            font-size: 12px;
+            display: block;
+            padding: 10px 10px 20px 10px;
+            line-height: 16px;
+            color: #fff;
+            box-sizing: border-box; }
+          header .container nav.topNavigation li.active {
+            background-color: #73c4e6; }
+    header .container .mainBanner {
+      text-align: center; }
+    @media screen and (min-width: 960px) {
+      header .container {
+        max-width: 960px;
+        margin: 0 auto;
+        text-align: left; } }
+
+.contentsboxWrap {
+  margin-top: 30px;
+  padding: 0 10px; }
+  .contentsboxWrap .container .content-box {
+    width: 100%;
+    margin-bottom: 10px; }
+    .contentsboxWrap .container .content-box:last-child {
+      margin-bottom: 0; }
+    .contentsboxWrap .container .content-box .text {
+      background-color: #f4f4f4; }
+      .contentsboxWrap .container .content-box .text h3 {
+        font-size: 0.9rem;
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+        background-color: #358cac; }
+        .contentsboxWrap .container .content-box .text h3.accent {
+          background-color: #73c4e6; }
+      .contentsboxWrap .container .content-box .text p {
+        font-size: 1rem;
+        padding: 10px;
+        line-height: 26px;
+        box-sizing: border-box; }
+      .contentsboxWrap .container .content-box .text a {
+        color: #358cac;
+        font-size: 14px;
+        display: inline-block;
+        padding: 10px 10px 20px 10px; }
+        .contentsboxWrap .container .content-box .text a::before {
+          display: inline-block;
+          margin-top: -5px;
+          vertical-align: middle;
+          padding-right: 5px;
+          content: "≫";
+          clear: both;
+          float: none; }
+        .contentsboxWrap .container .content-box .text a:hover {
+          text-decoration: underline;
+          opacity: 0.8; }
+      @media screen and (min-width: 960px) {
+        .contentsboxWrap .container .content-box .text {
+          margin: 0; } }
+    @media screen and (min-width: 480px) {
+      .contentsboxWrap .container .content-box {
+        width: 50%;
+        float: left;
+        border-right: 1px solid #fff;
+        box-sizing: border-box; }
+        .contentsboxWrap .container .content-box:last-child {
+          border-right: none; } }
+    @media screen and (min-width: 960px) {
+      .contentsboxWrap .container .content-box {
+        width: 25%;
+        float: left;
+        border-right: 1px solid #fff;
+        box-sizing: border-box; }
+        .contentsboxWrap .container .content-box:last-child {
+          border-right: none; } }
+  @media screen and (min-width: 960px) {
+    .contentsboxWrap .container {
+      max-width: 960px;
+      margin: 0 auto; } }
+
+footer {
+  padding-top: 70px;
+  clear: both;
+  border-bottom: 5px solid #358cac; }
+  footer .container {
+    text-align: center; }
+    footer .container ul {
+      display: inline-block; }
+      footer .container ul li {
+        display: inline-block; }
+        footer .container ul li a {
+          color: #358cac;
+          line-height: 22px;
+          font-size: 0.9rem; }
+          footer .container ul li a:hover {
+            text-decoration: underline;
+            opacity: 0.8; }
+    footer .container .copyright {
+      padding: 20px 10px 30px 10px; }
+      footer .container .copyright p small {
+        font-size: 0.7rem; }
+      @media screen and (min-width: 960px) {
+        footer .container .copyright {
+          padding-left: 0;
+          padding-right: 0; } }
+    @media screen and (min-width: 960px) {
+      footer .container {
+        max-width: 960px;
+        margin: 0 auto;
+        text-align: left; } }

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* accessBox */
+.accessBox{
+	padding-bottom:40px;
+}
+/* whiteBox */
+.whiteBox{
+	margin:20px auto 0;
+	width:616px;
+	padding:20px;
+}
+/* information */
+.infor{
+	margin-top:15px;
+}
+dl{
+	border-top:1px solid #963634;
+	border-right:1px solid #963634;
+}
+dt{
+	width:70px;
+	text-align:center;
+	font-size:13px;
+	float:left;
+	padding:15px;
+	background-color:#963634;
+	color:#fff;
+	border-bottom:1px solid #fff;
+}
+
+dd{
+	width:444px;
+	float:left;
+	padding:15px;
+	font-size:13px;
+	border-left:1px solid #963634;
+	border-bottom:1px solid #963634;
+}
