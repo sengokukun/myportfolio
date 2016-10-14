@@ -1,8 +1,9 @@
 @charset "UTF-8";
-@import 'config';
-@import 'common';
-@import 'contents';
-@import 'index';
+
+@import './config/config';
+@import './common/common';
+@import './contents/contents';
+
 
 /*===========================================
 	topページ設定
