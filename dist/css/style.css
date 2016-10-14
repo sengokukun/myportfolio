@@ -534,11 +534,13 @@ section.nohero {
 }
 
 .work .container .work-box-wrapper .article-box a .text h2 {
+	margin: 0;
 	font-size: 16px;
 	padding-bottom: 8px;
 }
 
 .work .container .work-box-wrapper .article-box a .text p {
+	margin: 0;
 	line-height: 1.4;
 	font-size: 14px;
 	opacity: 0.8;
@@ -558,6 +560,7 @@ section.nohero {
 }
 
 .work .container .work-box-wrapper .article-box.coming div p {
+	margin: 0;
 	font-size: 1.4rem;
 	line-height: 230px;
 	text-align: center;
@@ -829,3 +832,4 @@ header .container .head-navi ul {
 }
 
 }
+
