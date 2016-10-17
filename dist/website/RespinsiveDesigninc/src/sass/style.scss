@@ -15,25 +15,6 @@ $bg-content: #f4f4f4;
     /*floatの処理をクリア*/
     visibility: hidden;
 }
-
-.back-to-top{
-	text-align: center;
-	background-color: #eee;
-	padding: 20px;
-	border-bottom: 1px solid $main-color;
-  p{
-    a{
-      font-size: 14px;
-    	text-decoration: none;
-    	color: $main-color;
-      &:hover{
-        opacity: 0.8;
-      	text-decoration: underline;
-      }
-    }
-  }
-}
-
 a{
   text-decoration: none;
 }

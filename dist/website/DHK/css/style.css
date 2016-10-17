@@ -12,28 +12,6 @@ body{
 	background-color:#faf7ee;
 	height:100%;
 }
-.back-to-top{
-	width: 100%;
-	text-align: center;
-	position: fixed;
-	text-align: center;
-	background-color: #eee;
-	padding: 20px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	border-bottom: 1px solid #51a1a2;
-	z-index: 999;
-}
-.back-to-top p a{
-	font-size: 14px;
-	text-decoration: none;
-	color: #51a1a2;
-}
-.back-to-top p a:hover{
-	opacity: 0.8;
-	text-decoration: underline;
-}
 .sp{
 	display:none;
 }
