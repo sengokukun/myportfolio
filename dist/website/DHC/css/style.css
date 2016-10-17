@@ -1,21 +1,5 @@
 @charset "UTF-8";
 
-.back-to-top{
-	text-align: center;
-	background-color: #eee;
-	padding: 20px;
-	border-bottom: 1px solid #51a1a2;
-}
-.back-to-top p a{
-	font-size: 14px;
-	text-decoration: none;
-	color: #51a1a2;
-}
-.back-to-top p a:hover{
-	opacity: 0.8;
-	text-decoration: underline;
-}
-
 .container{
   width:780px;
   margin:0 auto;
