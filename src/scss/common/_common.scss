@@ -205,11 +205,15 @@ footer{
 			text-align: center;
 			font-size: 0.9em;
 			padding-bottom: 6px;
+			p{
+				margin: 0;
+			}
 		}
 		.copyright{
 			text-align: center;
 			padding-bottom: 30px;
 			p{
+				margin: 0;
 				small{
 					font-size: 0.7em;
 				}

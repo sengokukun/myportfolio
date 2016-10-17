@@ -150,9 +150,17 @@ footer .container .myaddress {
 	padding-bottom: 6px;
 }
 
+footer .container .myaddress p {
+	margin: 0;
+}
+
 footer .container .copyright {
 	text-align: center;
 	padding-bottom: 30px;
+}
+
+footer .container .copyright p {
+	margin: 0;
 }
 
 footer .container .copyright p small {

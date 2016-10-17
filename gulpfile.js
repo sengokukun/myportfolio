@@ -7,9 +7,7 @@ var cmq = require('gulp-combine-media-queries');
 
 gulp.task('cmq', function () {
   gulp.src('dist/css/**/*css')
-    .pipe(cmq({
-      log: true
-    }))
+    .pipe(cmq({log: true}))
     .pipe(gulp.dest('./dist/css'));
 });
 
@@ -31,7 +29,7 @@ gulp.task("sass", function() {
 });
 
 gulp.task("default", function() {
-    gulp.watch(["js/**/*.js","!js/min/**/*.js"],["js"]);
+    gulp.watch(["./dist/js/**/*.js","!js/min/**/*.js"],["js"]);
     gulp.watch('./src/scss/**/*scss',['sass']);
     gulp.watch('dist/css/**/*css',['cmq']);
 });
