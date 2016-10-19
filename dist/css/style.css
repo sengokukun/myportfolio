@@ -208,8 +208,8 @@ section.nohero {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../dist/img/myphoto.png);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../dist/img/myphoto.png);
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../dist/img/myphoto.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../dist/img/myphoto.png");
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -224,7 +224,7 @@ section.nohero {
 }
 
 .top-main .container .site-title {
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 10px;
 	font-size: 14vw;
 	letter-spacing: 0.1em;
@@ -237,8 +237,8 @@ section.nohero {
 	font-size: 1.3rem;
 }
 
-.top-main .container .site-title-sub::before,
-.top-main .container .site-title-sub::after {
+.top-main .container .site-title-sub::after,
+.top-main .container .site-title-sub::before {
 	content: "";
 	display: block;
 	width: 80%;
@@ -290,8 +290,8 @@ section.nohero {
 	font-size: 8vw;
 }
 
-.about .container .heading::before,
-.about .container .heading::after {
+.about .container .heading::after,
+.about .container .heading::before {
 	content: "";
 	position: absolute;
 	right: 0;
@@ -302,7 +302,7 @@ section.nohero {
 
 .about .container .about-text {
 	font-size: 0.8rem;
-	margin: 30px 0 0 0;
+	margin: 30px 0 0;
 	line-height: 2.5;
 }
 
@@ -326,8 +326,8 @@ section.nohero {
 	font-size: 8vw;
 }
 
-.skill .container .heading::before,
-.skill .container .heading::after {
+.skill .container .heading::after,
+.skill .container .heading::before {
 	content: "";
 	position: absolute;
 	right: 0;
@@ -444,8 +444,8 @@ section.nohero {
 	font-size: 8vw;
 }
 
-.work .container .heading::before,
-.work .container .heading::after {
+.work .container .heading::after,
+.work .container .heading::before {
 	content: "";
 	position: absolute;
 	right: 0;
@@ -536,7 +536,7 @@ section.nohero {
 
 .work .container .work-box-wrapper .article-box a .text {
 	background-color: #fff;
-	padding: 16px;
+	padding: 16px 0;
 	line-height: 1.2;
 }
 
@@ -558,7 +558,7 @@ section.nohero {
 }
 
 .work .container .work-box-wrapper .article-box.coming {
-	background-image: url(../../dist/img/p06.jpg);
+	background-image: url("../../dist/img/p06.jpg");
 	background-size: cover;
 }
 
@@ -599,8 +599,8 @@ section.nohero {
 	font-size: 8vw;
 }
 
-.contact .container .heading::before,
-.contact .container .heading::after {
+.contact .container .heading::after,
+.contact .container .heading::before {
 	content: "";
 	position: absolute;
 	right: 0;
@@ -717,8 +717,8 @@ header .container .sp-button {
 	font-size: 6vw;
 }
 
-.top-main .container .site-title-sub::before,
-.top-main .container .site-title-sub::after {
+.top-main .container .site-title-sub::after,
+.top-main .container .site-title-sub::before {
 	width: 140px;
 	margin: 0 30px;
 	display: inline-block;
