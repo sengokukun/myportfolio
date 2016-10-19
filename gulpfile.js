@@ -31,5 +31,5 @@ gulp.task("sass", function() {
 gulp.task("default", function() {
     gulp.watch(["./dist/js/**/*.js","!js/min/**/*.js"],["js"]);
     gulp.watch('./src/scss/**/*scss',['sass']);
-    gulp.watch('dist/css/**/*css',['cmq']);
+    gulp.watch('./dist/css/**/*css',['cmq']);
 });
