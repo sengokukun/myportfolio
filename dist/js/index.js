@@ -25,19 +25,17 @@ $(function(){
   });
 
   $(function(){
-  $('header a').click(function(){
-    var id =$(this).attr('href');
-    var position =$(id).offset().top;
-    $('html,body').animate({
-      'scrollTop':position
-    },500)
+    $('header a').click(function(){
+      var id =$(this).attr('href');
+      var position =$(id).offset().top;
+      $('html,body').animate({
+        'scrollTop':position
+      },500)
+    });
   });
-});
 
-
-$('.sp-button').click(function(){
-  $('.head-navi').slideToggle();
-});
-
+  $('.sp-button').click(function(){
+    $('.head-navi').slideToggle();
+  });
 
 });
