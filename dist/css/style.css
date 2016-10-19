@@ -531,6 +531,7 @@ section.nohero {
 .work .container .work-box-wrapper .article-box a .photo {
 	background-color: #eee;
 	min-height: 150px;
+	background-position: center;
 	background-size: cover;
 }
 
