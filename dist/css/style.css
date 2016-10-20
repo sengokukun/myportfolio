@@ -167,6 +167,10 @@ footer .container .copyright p small {
 	font-size: 0.7em;
 }
 
+header .container .nohero ul li a {
+	color: #51a1a2;
+}
+
 section.nohero {
 	background-color: #fff;
 }

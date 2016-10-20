@@ -1,18 +1,18 @@
 @charset "UTF-8";
-// header{
-//   .container{
-//     .nohero{
-//       ul{
-//         li{
-//           a{
-//             color: $main-color;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-//
+header{
+  .container{
+    .nohero{
+      ul{
+        li{
+          a{
+            color: $main-color;
+          }
+        }
+      }
+    }
+  }
+}
+
 
 section {
   &.nohero {
