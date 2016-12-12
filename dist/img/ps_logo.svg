@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="298px" y="298px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
@@ -42,17 +42,17 @@
 	<title>HTML5 Logo</title>
 	<polygon class="st1" points="107.6,470.9 74.6,100.6 437.4,100.6 404.3,470.8 255.8,512 	"/>
 	<polygon class="st2" points="256,480.5 376,447.2 404.3,130.9 256,130.9 	"/>
-	<polygon class="st3" points="256,268.2 195.9,268.2 191.8,221.7 256,221.7 256,176.3 255.8,176.3 142.1,176.3 143.2,188.5 
+	<polygon class="st3" points="256,268.2 195.9,268.2 191.8,221.7 256,221.7 256,176.3 255.8,176.3 142.1,176.3 143.2,188.5
 		154.4,313.6 256,313.6 	"/>
-	<polygon class="st3" points="256,386.2 255.8,386.2 205.2,372.5 202,336.3 177.4,336.3 156.4,336.3 162.8,407.6 255.8,433.5 
+	<polygon class="st3" points="256,386.2 255.8,386.2 205.2,372.5 202,336.3 177.4,336.3 156.4,336.3 162.8,407.6 255.8,433.5
 		256,433.4 	"/>
 	<path class="st4" d="M108.4,0h23.1v22.8h21.1V0h23.1v69h-23.1V45.9h-21.1V69h-23.1L108.4,0L108.4,0z"/>
 	<path class="st4" d="M206,22.9h-20.3V0h63.7v22.9h-20.3V69H206L206,22.9L206,22.9z"/>
 	<path class="st4" d="M259.5,0h24.1l14.8,24.3L313.2,0h24.1v69h-23V34.8l-15.9,24.5H298l-15.9-24.5V69h-22.6V0z"/>
 	<path class="st4" d="M348.7,0h23.1v46.2h32.5V69h-55.5V0z"/>
-	<polygon class="st5" points="255.8,268.2 255.8,313.6 311.8,313.6 306.5,372.5 255.8,386.2 255.8,433.4 348.9,407.6 349.6,400 
+	<polygon class="st5" points="255.8,268.2 255.8,313.6 311.8,313.6 306.5,372.5 255.8,386.2 255.8,433.4 348.9,407.6 349.6,400
 		360.3,280.4 361.4,268.2 349.2,268.2 	"/>
-	<polygon class="st5" points="255.8,176.3 255.8,204.5 255.8,221.6 255.8,221.7 365.4,221.7 365.4,221.7 365.5,221.7 366.4,211.5 
+	<polygon class="st5" points="255.8,176.3 255.8,204.5 255.8,221.6 255.8,221.7 365.4,221.7 365.4,221.7 365.5,221.7 366.4,211.5
 		368.5,188.5 369.6,176.3 	"/>
 </g>
 <g id="レイヤー_2" class="st0">
@@ -304,7 +304,7 @@
 </g>
 <g id="レイヤー_7">
 	<g>
-		
+
 			<radialGradient id="SVGID_19_" cx="-183.5839" cy="182.9206" r="0.3563" gradientTransform="matrix(826.1105 0 0 -818.0499 151850.6094 149790.0156)" gradientUnits="userSpaceOnUse">
 			<stop  offset="0" style="stop-color:#34364E;stop-opacity:0.98"/>
 			<stop  offset="1" style="stop-color:#0C0824"/>
