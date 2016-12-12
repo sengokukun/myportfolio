@@ -1,0 +1,1305 @@
+/*===========================================
+	全体設定
+=============================================*/
+
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+
+.bgcrgba {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: relative;
+	left: 0;
+	overflow-x: hidden;
+}
+
+body.open {
+	position: fixed;
+}
+
+.onlinestore {
+	letter-spacing: 0.1em;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.Wrapper {
+	position: relative;
+	width: 100%;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+/*===========================================
+	button設定
+=============================================*/
+
+.button {
+	width: 250px;
+	margin: 50px auto 0;
+	background-color: #e89856;
+	text-align: center;
+}
+
+.button a {
+	font-weight: normal;
+	letter-spacing: 1px;
+	line-height: 1.8em;
+	color: #fff;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.button a:hover {
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+}
+
+/*===========================================
+	Gototop設定
+=============================================*/
+
+.Gototop {
+	font-size: 50px;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin-left: -50px;
+	top: -50px;
+	z-index: -1;
+}
+
+.Gototop__link {
+	width: 100px;
+	height: 100px;
+	display: block;
+	background-color: #333;
+	color: #fff;
+	border-radius: 50px;
+}
+
+/*===========================================
+	Masterhead設定
+=============================================*/
+
+.Masterhead {
+	position: fixed;
+	z-index: 9999;
+	height: 60px;
+	background-color: #fff;
+	width: 100%;
+	background-color: #fff;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.Masterhead__logo {
+	height: auto;
+	width: 100px;
+	position: absolute;
+	font-size: 30px;
+	top: 13px;
+	left: 10px;
+	box-sizing: border-box;
+	z-index: 1000;
+}
+
+.Masterhead .Masterheadtoggle button {
+	color: #e89856;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	outline: none;
+	margin-right: 10px;
+	padding: 0;
+	border: none;
+	background: none;
+	font-size: 28px;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.Masterhead .Headnavi {
+	position: absolute;
+	width: 100%;
+	top: 60px;
+	z-index: 999;
+	display: none;
+}
+
+.Masterhead .Headnavi__items {
+	background-color: #fff;
+	text-align: center;
+}
+
+.Masterhead .Headnavi__item {
+	border-bottom: 1px solid #aaa;
+}
+
+.Masterhead .Headnavi__item:nth-child(n+7) {
+	border: none;
+}
+
+.Masterhead .Headnavi__item--link {
+	letter-spacing: 1px;
+	display: block;
+	line-height: 60px;
+	color: inherit;
+	font-size: 12px;
+}
+
+.Masterhead .Headnavi__item--link.onlinestore {
+	color: #fff;
+	background-color: #e89856;
+}
+
+.Masterhead .Headnavi__item--link.onlinestore:hover {
+	opacity: 0.8;
+}
+
+/*===========================================
+	Footer設定
+=============================================*/
+
+.Footer {
+	z-index: 10;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 390px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #333;
+}
+
+.Footer__inner .Footnavi__item {
+	padding-top: 30px;
+}
+
+.Footer__inner .Footnavi__link {
+	font-size: 12px;
+	color: #fff;
+}
+
+.Footer__inner .Footnavi__link:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+
+.Footer .Footicons {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 40px 0 30px 0;
+	margin: 0 auto;
+	width: 110px;
+}
+
+.Footer .Footicons__item a {
+	font-size: 24px;
+	color: #fff;
+}
+
+.Footer .Footicons__item:hover {
+	opacity: 0.8;
+}
+
+.Footer .Footcopyright {
+	font-size: 12px;
+	color: #fff;
+}
+
+/*===========================================
+	Mainwrapper設定
+=============================================*/
+
+.Mainwrapper {
+	position: relative;
+	margin: 0 auto;
+	min-height: 100%;
+	overflow: hidden; /*===========================================
+  	Hero設定
+  =============================================*/ /*===========================================
+  	About設定
+  =============================================*/ /*===========================================
+  	News設定
+  =============================================*/
+}
+
+.Mainwrapper .Hero {
+	min-height: 710px;
+	background-image: url("../../dist/img/hero.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.Mainwrapper .About {
+	background-image: none;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.Mainwrapper .About__inner {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	height: 800px;
+	max-width: 960px;
+}
+
+.Mainwrapper .About__inner .Aboutcontents {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox {
+	position: relative;
+	width: 100%;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox__contents--title {
+	letter-spacing: 2px;
+	color: #39302d;
+	text-align: center;
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox__contents--text {
+	color: #39302d;
+	text-align: center;
+	line-height: 1.7;
+	font-size: 16px;
+}
+
+.Mainwrapper .News {
+	background-color: #f3f3f3;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
+.Mainwrapper .News__inner .Newstitle {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.Mainwrapper .News__inner .Newstitle__item {
+	letter-spacing: 2px;
+	color: #39302d;
+	font-size: 36px;
+}
+
+.Mainwrapper .News .Newsboxes {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.Mainwrapper .News .Newsboxes__items {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 300px;
+	flex: 1 1 300px;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 10px 10px 0;
+}
+
+.Mainwrapper .News .Newsboxes__item {
+	background-color: #fff;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	display: block;
+	border: 1px solid #ddd;
+	color: inherit;
+	text-decoration: none;
+}
+
+.Mainwrapper .News .Newsboxes__item:hover {
+	opacity: 0.8;
+}
+
+.Mainwrapper .News .Newsboxes__item .photo {
+	background-image: url("../../dist/img/news_pic01.jpg");
+	min-height: 150px;
+	background-position: center;
+	background-size: cover;
+}
+
+.Mainwrapper .News .Newsboxes__sub {
+	margin: 10px;
+	color: #39302d;
+}
+
+.Mainwrapper .News .Newsboxes__sub--data {
+	color: #e89856;
+	font-size: 12px;
+	padding-bottom: 8px;
+}
+
+.Mainwrapper .News .Newsboxes__sub--title {
+	line-height: 1.4;
+	font-size: 12px;
+	opacity: 0.8;
+}
+
+/*===========================================
+	Campaign設定
+=============================================*/
+
+.Campaign {
+	position: relative;
+}
+
+.Campaign__inner {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.Campaign__inner .Campaignbox {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.Campaign__inner .Campaignbox__left {
+	width: 50%;
+	padding-left: 30px;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+	background: url("../../dist/img/campaign_sp.png");
+	background-size: cover;
+	background-position: left center;
+	height: 210px;
+}
+
+.Campaign__inner .Campaignbox__right {
+	width: 50%;
+	padding-left: 30px;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+	background: url("../../dist/img/lookbook_sp.png");
+	background-position: left center;
+	background-size: cover;
+	height: 210px;
+}
+
+.Campaign__inner .Campaignbox__leftlink {
+	width: 50%;
+}
+
+.Campaign__inner .Campaignbox__leftlink--text {
+	color: #fff;
+}
+
+.Campaign__inner .Campaignbox__leftlink--text h3 {
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+	font-size: 44px;
+}
+
+.Campaign__inner .Campaignbox__leftlink--text p {
+	font-size: 16px;
+	line-height: 1.4;
+	display: none;
+}
+
+.Campaign__inner .Campaignbox__leftlink--text .sp {
+	display: block;
+}
+
+.Campaign__inner .Campaignbox__rightlink {
+	width: 50%;
+}
+
+.Campaign__inner .Campaignbox__rightlink--text {
+	color: #fff;
+}
+
+.Campaign__inner .Campaignbox__rightlink--text h3 {
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+	font-size: 44px;
+}
+
+.Campaign__inner .Campaignbox__rightlink--text p {
+	line-height: 1.4;
+	display: none;
+	font-size: 16px;
+}
+
+.Campaign__inner .Campaignbox__rightlink--text .sp {
+	display: block;
+}
+
+/*===========================================
+	Store設定
+=============================================*/
+
+.Store {
+	background-image: none;
+	background-color: #f3f3f3;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.Store__inner {
+	max-width: 960px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.Store__inner .Storetitle__item {
+	letter-spacing: 2px;
+	color: #39302d;
+	text-align: center;
+	font-size: 36px;
+}
+
+.Store__inner .Storecontents .Storemap {
+	padding: 50px 0 0;
+}
+
+.Store__inner .Storecontents .Storemap #area-google-map {
+	width: 65%;
+	margin: 0 auto;
+	height: 300px;
+}
+
+.Store__inner .Storecontents .Storeinfo {
+	color: #39302d;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 65%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.Store__inner .Storecontents .Storeinfo__train {
+	font-family: 'Noto Sans Japanese', "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	padding-right: 30px;
+	line-height: 1.8;
+	text-align: left;
+	font-size: 12px;
+}
+
+.Store__inner .Storecontents .Storeinfo__train span {
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.Store__inner .Storecontents .Storeinfo__address {
+	font-family: 'Noto Sans Japanese', "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	line-height: 1.8;
+	font-size: 12px;
+	padding-top: 20px;
+	text-align: left;
+}
+
+.Store__inner .Storecontents .Storeinfo__address span {
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+/*===========================================
+	Appli設定
+=============================================*/
+
+.Appli {
+	position: relative;
+	background: url("../../dist/img/love_bg.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.Appli__inner {
+	padding: 0 30px;
+	max-width: 960px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.Appli__inner .Applicontents {
+	top: 20%;
+	width: 50%;
+	position: absolute;
+	right: 0;
+}
+
+.Appli__inner .Applicontents__text {
+	color: #39302d;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.Appli__inner .Applicontents__text--title {
+	letter-spacing: 2px;
+	color: #39302d;
+	padding-bottom: 10px;
+	font-size: 22px;
+}
+
+.Appli__inner .Applicontents__text--info {
+	color: #39302d;
+	font-size: 14px;
+}
+
+.Appli__inner .Applicontents__buttons {
+	padding-top: 30px;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.Appli__inner .Applicontents__buttons--ios {
+	display: block;
+	width: 100px;
+	margin-right: 20px;
+}
+
+.Appli__inner .Applicontents__buttons--googleplay {
+	width: 100px;
+	display: block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox {
+	padding: 50px 30px;
+}
+
+.Mainwrapper .About__inner {
+	height: auto;
+}
+
+.Appli__inner .Applicontents {
+	width: 55%;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 568px) {
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox__contents--text {
+	font-size: 16px !important;
+	line-height: 1.8;
+}
+
+.Mainwrapper .News .Newsboxes__sub--data {
+	font-size: 12px !important;
+}
+
+.Mainwrapper .News .Newsboxes__sub--title {
+	font-size: 12px !important;
+}
+
+.Campaign__inner .Campaignbox__leftlink .button a {
+	font-size: 12px !important;
+}
+
+.Campaign__inner .Campaignbox__rightlink .button a {
+	font-size: 12px !important;
+}
+
+.Store__inner .Storecontents .Storeinfo__train {
+	font-size: 12px !important;
+}
+
+.Store__inner .Storecontents .Storeinfo__address {
+	font-size: 12px !important;
+}
+
+.Appli__inner {
+	min-height: 350px;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1025px) {
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox__contents--text {
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox {
+	padding: 50px 100px;
+}
+
+.Mainwrapper .About__inner {
+	height: auto;
+}
+
+.Campaign__inner .Campaignbox__left {
+	height: 270px;
+}
+
+.Campaign__inner .Campaignbox__right {
+	height: 270px;
+}
+
+.Campaign__inner .Campaignbox__leftlink--text h3 {
+	font-size: 30px;
+	margin-bottom: 5px;
+	padding-bottom: 0;
+}
+
+.Campaign__inner .Campaignbox__leftlink .button a {
+	font-size: 14px;
+}
+
+.Campaign__inner .Campaignbox__rightlink--text h3 {
+	font-size: 30px;
+	margin-bottom: 5px;
+	padding-bottom: 0;
+}
+
+.Campaign__inner .Campaignbox__rightlink .button a {
+	font-size: 14px;
+}
+
+.Store__inner .Storecontents .Storeinfo__train {
+	font-size: 12px;
+}
+
+.Store__inner .Storecontents .Storeinfo__address {
+	font-size: 12px;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 960px) {
+
+.Mainwrapper .News .Newsboxes__items:nth-child(n+3) {
+	margin-bottom: 0;
+}
+
+.Mainwrapper .News .Newsboxes__sub--data {
+	font-size: 12px;
+}
+
+.Mainwrapper .News .Newsboxes__sub--title {
+	font-size: 12px;
+}
+
+.Appli__inner .Applicontents {
+	top: 25%;
+}
+
+.Appli__inner .Applicontents__text--title {
+	font-size: 30px;
+}
+
+}
+
+@media screen and (min-width: 568px) and (max-width: 960px) {
+
+.Appli__inner {
+	min-height: 320px;
+}
+
+}
+
+@media screen and (min-width: 960px) {
+
+.button {
+	width: 300px;
+}
+
+.Masterhead__logo {
+	left: 30px;
+}
+
+.Masterhead .Masterheadtoggle {
+	display: none;
+}
+
+.Masterhead .Headnavi__items {
+	box-sizing: border-box;
+	padding-left: 25px;
+	width: 100%;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.Masterhead .Headnavi__item--link {
+	color: #39302d;
+	padding: 0;
+	font-size: 15px;
+}
+
+.Masterhead .Headnavi__item--link:hover {
+	color: #e89856;
+}
+
+.Masterhead .Headnavi__item--link.onlinestore {
+	padding: 0 20px;
+	position: absolute;
+	right: 0;
+}
+
+.Masterhead .Headnavi__item--link.onlinestore:hover {
+	color: #fff;
+}
+
+.Masterhead .Headnavi__item {
+	border: none;
+	padding-right: 20px;
+}
+
+.Masterhead .Headnavi__item:last-child {
+	padding: 0;
+}
+
+.Masterhead .Headnavi {
+	display: block !important;
+	padding: 0;
+	top: 0;
+}
+
+.Masterhead {
+	overflow: hidden;
+}
+
+.Footer__inner .Footnavi__item {
+	padding-right: 20px;
+}
+
+.Footer__inner .Footnavi__item:last-child {
+	padding-right: 0;
+}
+
+.Footer__inner .Footnavi__item {
+	padding-top: 0;
+}
+
+.Footer__inner .Footnavi {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.Footer .Footicons {
+	padding: 20px 0;
+	width: 100px;
+}
+
+.Footer {
+	padding-top: 20px;
+	height: 90px;
+}
+
+}
+
+@media (min-width: 960px) {
+
+.Mainwrapper .News {
+	background: url("../../dist/img/bg_news.png") center left no-repeat fixed;
+	background-size: cover;
+}
+
+.Mainwrapper .News__inner .Newstitle__item {
+	font-size: 44px;
+}
+
+.Mainwrapper .News .Newsboxes__items {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 300px;
+	flex: 0 1 300px;
+}
+
+.Mainwrapper .News .Newsboxes__sub--data {
+	font-size: 14px;
+}
+
+.Mainwrapper .News .Newsboxes__sub--title {
+	font-size: 14px;
+}
+
+.Mainwrapper .News .Newsboxes {
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+.Appli__inner {
+	min-height: 500px;
+}
+
+.Appli__inner .Applicontents {
+	top: 14%;
+}
+
+.Appli__inner .Applicontents__text--title {
+	font-size: 40px;
+}
+
+.Appli__inner .Applicontents__text--info {
+	font-size: 18px;
+}
+
+.Appli__inner .Applicontents__buttons {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.Appli__inner .Applicontents__buttons--ios {
+	width: 150px;
+}
+
+.Appli__inner .Applicontents__buttons--googleplay {
+	width: 150px;
+}
+
+}
+
+@media (min-width: 1025px) {
+
+.Mainwrapper .About {
+	background: url("../../dist/img/about.png") center top no-repeat fixed;
+	background-size: cover;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox__contents--title {
+	font-size: 44px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox__contents--text {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	line-height: 2;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox__contents {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 5%;
+	margin: 40px;
+	border-radius: 50%;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox .Cloudbubble {
+	position: absolute;
+	right: 30%;
+	bottom: -20%;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox .Cloudbubble__m {
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox .Cloudbubble__s {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.Campaign__inner .Campaignbox__left {
+	height: 480px;
+	background: url("../../dist/img/campaign_pc.png") center top no-repeat fixed;
+	background-size: cover;
+}
+
+.Campaign__inner .Campaignbox__right {
+	height: 480px;
+	background: url("../../dist/img/lookbook_pc.png") center right no-repeat fixed;
+	background-size: cover;
+}
+
+.Campaign__inner .Campaignbox__leftlink--text p {
+	display: block;
+}
+
+.Campaign__inner .Campaignbox__leftlink--text .sp {
+	display: none;
+}
+
+.Campaign__inner .Campaignbox__leftlink .button {
+	margin: 50px 0 0;
+}
+
+.Campaign__inner .Campaignbox__leftlink .button a {
+	font-size: 16px;
+}
+
+.Campaign__inner .Campaignbox__rightlink--text p {
+	display: block;
+}
+
+.Campaign__inner .Campaignbox__rightlink--text .sp {
+	display: none;
+}
+
+.Campaign__inner .Campaignbox__rightlink .button {
+	margin: 50px 0 0;
+}
+
+.Campaign__inner .Campaignbox__rightlink .button a {
+	font-size: 16px;
+}
+
+.Store {
+	background: url("../../dist/img/bg_store.png") center right no-repeat fixed;
+	background-size: cover;
+}
+
+.Store__inner .Storetitle__item {
+	font-size: 40px;
+}
+
+.Store__inner .Storecontents .Storeinfo__train {
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+.Store__inner .Storecontents .Storeinfo__address {
+	padding-top: 0;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+}
+
+@media (min-width: 1280px) {
+
+.Mainwrapper .Hero {
+	min-height: 1094px;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox__contents {
+	margin: 0 0 40px 0;
+}
+
+.Mainwrapper .About__inner .Aboutcontents .Cloudbox {
+	margin: 50px auto 0 auto;
+}
+
+.Mainwrapper .About__inner {
+	min-height: 1094px;
+}
+
+.Campaign__inner .Campaignbox__left {
+	min-height: 1094px;
+}
+
+.Campaign__inner .Campaignbox__right {
+	min-height: 1094px;
+}
+
+.Appli {
+	background-position: 0 -120px;
+}
+
+}
+
+@media (max-width: 1025px) {
+
+.Campaign__inner .Campaignbox {
+	display: block;
+}
+
+.Campaign__inner .Campaignbox__left {
+	width: 100%;
+}
+
+.Campaign__inner .Campaignbox__right {
+	width: 100%;
+}
+
+.Campaign__inner .Campaignbox__leftlink .button a {
+	padding: 20px;
+	line-height: 0;
+}
+
+.Campaign__inner .Campaignbox__rightlink .button {
+	width: 200px;
+	margin: 30px 0 0;
+}
+
+.Campaign__inner .Campaignbox__rightlink .button a {
+	padding: 20px;
+	line-height: 0;
+}
+
+.Store__inner .Storecontents {
+	padding: 0 30px;
+}
+
+.Store__inner .Storecontents .Storemap {
+	padding-top: 50px;
+}
+
+.Store__inner .Storecontents .Storemap #area-google-map {
+	width: auto;
+	margin: 0 auto;
+	height: 200px;
+}
+
+.Store__inner .Storecontents .Storeinfo {
+	width: auto;
+	display: block;
+	padding-top: 30px;
+}
+
+}
+
+@media screen and (max-width: 1025px) {
+
+.Campaign__inner .Campaignbox__leftlink .button {
+	width: 200px;
+	margin: 30px 0 0;
+}
+
+}
+
+@media screen and (max-width: 960px) {
+
+.Gototop {
+	top: -30px;
+	margin-left: -33px;
+}
+
+.Gototop__link {
+	width: 70px;
+	height: 70px;
+}
+
+.Gototop__link i {
+	font-size: 40px;
+	display: block;
+}
+
+.Masterhead .Headnavi__item:hover {
+	background-color: #e89856;
+	color: #fff;
+}
+
+.Masterhead .Headnavi__item:active {
+	background-color: #e89856;
+	color: #fff;
+}
+
+}
+
+@media (max-width: 960px) {
+
+.Mainwrapper {
+	padding-bottom: 410px;
+}
+
+.Mainwrapper .News .Newsboxes__items {
+	margin-bottom: 10px;
+}
+
+.Mainwrapper .News .Newsboxes__items:last-child {
+	margin-bottom: 0;
+}
+
+.Mainwrapper .News .Newsboxes {
+	padding: 0 20px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+.Mainwrapper .Hero {
+	min-height: 400px;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.Mainwrapper .Hero {
+	background-position: -150px 0;
+}
+
+.Campaign__inner .Campaignbox__leftlink--text h3 {
+	font-size: 22px;
+	padding-bottom: 5px;
+	padding-bottom: 0;
+}
+
+.Campaign__inner .Campaignbox__leftlink .button {
+	width: 100px;
+}
+
+.Campaign__inner .Campaignbox__leftlink .button a {
+	padding: 15px;
+	font-size: 12px;
+}
+
+.Campaign__inner .Campaignbox__leftlink .button a span {
+	display: none;
+}
+
+.Campaign__inner .Campaignbox__rightlink--text h3 {
+	font-size: 22px;
+	padding-bottom: 5px;
+	padding-bottom: 0;
+}
+
+.Campaign__inner .Campaignbox__rightlink .button {
+	width: 100px;
+}
+
+.Campaign__inner .Campaignbox__rightlink .button a {
+	padding: 15px;
+	font-size: 12px;
+}
+
+.Campaign__inner .Campaignbox__rightlink .button a span {
+	display: none;
+}
+
+.Appli__inner {
+	min-height: 300px;
+}
+
+.Appli__inner .Applicontents__text {
+	padding-right: 30px;
+}
+
+.Appli__inner .Applicontents__buttons {
+	padding-top: 20px;
+	display: block;
+}
+
+.Appli__inner .Applicontents__buttons--ios {
+	margin-right: 0;
+	margin-bottom: 5px;
+}
+
+}
+
+@media screen and (max-width: 350px) {
+
+.button a {
+	font-size: 14px;
+}
+
+}
+
+@media (max-width: 320px) {
+
+.Appli__inner .Applicontents {
+	width: 60%;
+}
+
+}
